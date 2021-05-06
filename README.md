@@ -6,6 +6,7 @@ A webpage that pulls the latest movies showing from [The Movie Database](https:/
 
 ## Tech Stack
 
+- JavaScript
 - Node.js
 - Express
  -EJS
