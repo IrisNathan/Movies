@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<!-- puts everything inside a box -->
+<div class="wrapper">
+    <h1>Now Playing at a Theater Near You</h1>
+
+    <% data.forEach(el => { %>
+        <h2><%= el.title %></h2>
+        <img  class="mb-2" src="https://image.tmdb.org/t/p/w500<%= el.poster_path %>" alt="<%=el.title%>">
+        <h6 class="mb-3"><%= el.overview %></h6>
+        <h5 class="mb-5">Rating: <%= el.vote_average %> out of 10 stars</h5>
+<% }) %>
+</div>
+
+<%- include('partials/footer') %>
