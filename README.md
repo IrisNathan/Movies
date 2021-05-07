@@ -1,4 +1,4 @@
-# Trending_Movies
+# Movies
 
 ## About
 
