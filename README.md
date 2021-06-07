@@ -16,6 +16,6 @@ A webpage that pulls the latest movies showing from [The Movie Database](https:/
 
 - Clone the repo
 - Run npm install
-- Replace the API key in the endpoint url with your own from [The Movie Database](https://www.themoviedb.org/documentation/api
+- Replace the API key in the endpoint url with your own from [The Movie Database](https://www.themoviedb.org/documentation/api)
 - In terminal run node server.js
 - Open broswer to localhost:3000
